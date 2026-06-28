@@ -7,11 +7,12 @@
   --navy-500: #587ebd;     /* softer navy — tertiary text, captions */
   --sky-500: #00b6f8;      /* brand sky blue — links, accents */
   --sky-300: #79d4fb;      /* lighter sky — subtle accents, tags */
-  --pastel-100: #eaf6fd;   /* pale pastel blue — card surfaces, dividers */
-  --pastel-50: #f6fafe;    /* near-white pastel blue — page background */
+  --pastel-100: #d7ecfb;   /* pale pastel blue — card surfaces, dividers */
+  --pastel-50: #eaf5fc;    /* near-white pastel blue — page background */
   --white: #ffffff;        /* pure white — cards on pastel bg */
   --gold-500: #fbb12e;     /* brand gold — primary CTA */
   --gold-600: #d78728;     /* darker gold — CTA hover */
+  --bone-50: #fbfaf8;  
 
   --background: var(--pastel-50);
   --foreground: var(--navy-900);
@@ -31,6 +32,7 @@
   --color-white: var(--white);
   --color-gold-500: var(--gold-500);
   --color-gold-600: var(--gold-600);
+  --color-bone-50: var(--bone-50);
 
   --font-display: var(--font-archivo), sans-serif;
   --font-sans: var(--font-inter), sans-serif;

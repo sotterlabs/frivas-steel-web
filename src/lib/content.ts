@@ -2,6 +2,21 @@
 // Edit here to update site-wide text without touching components.
 
 
+export const carouselImages = [
+  "/images/carrousel/01.jpeg",
+  "/images/carrousel/02.jpeg",
+  "/images/carrousel/03.jpeg",
+  "/images/carrousel/04.jpeg",
+  "/images/carrousel/05.jpeg",
+  "/images/carrousel/06.jpeg",
+  "/images/carrousel/07.jpeg",
+  "/images/carrousel/08.jpeg",
+  "/images/carrousel/09.jpeg",
+  "/images/carrousel/10.jpeg",
+  "/images/carrousel/11.jpeg",
+  "/images/carrousel/12.jpeg",
+] as const;
+
 export const JOB_TYPES = [
   "Interior Steel Framing Walls",
   "Exterior Steel Framing Walls",

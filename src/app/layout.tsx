@@ -56,9 +56,7 @@ export default function RootLayout({
       lang="en"
       className={`${archivo.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-bone-100 text-steel-950">
-        {children}
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
