@@ -10,18 +10,12 @@ services:
       - sotter-network
     labels:
       - traefik.enable=true
-
       - traefik.http.services.frivas.loadbalancer.server.port=3000
 
       - traefik.http.routers.frivas.rule=Host(`frivassteel.ca`) || Host(`www.frivassteel.ca`)
       - traefik.http.routers.frivas.entrypoints=websecure
       - traefik.http.routers.frivas.tls=true
       - traefik.http.routers.frivas.tls.certresolver=letsencrypt
-
-      - traefik.http.middlewares.frivas-wwwredirect.redirectregex.regex=^https://www\.frivassteel\.ca/(.*)
-      - traefik.http.middlewares.frivas-wwwredirect.redirectregex.replacement=https://frivassteel.ca/$${1}
-      - traefik.http.middlewares.frivas-wwwredirect.redirectregex.permanent=true
-      - traefik.http.routers.frivas.middlewares=frivas-wwwredirect
 
 networks:
   sotter-network:
